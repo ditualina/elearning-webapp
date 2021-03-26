@@ -1,0 +1,12 @@
+-- weka
+
+http://blog.datumbox.com/machine-learning-tutorial-the-naive-bayes-text-classifier/
+http://www.scalaformachinelearning.com/2013/05/multinomial-naive-bayes-classifier-in.html
+http://www.scrigroup.com/calculatoare/algoritmi/Arbori-de-decizie-Inteligenta-82545.php
+http://stanford.edu/~cpiech/cs221/handouts/kmeans.html -- f bun
+http://researchpublications.org/IJCSA/NCAICN-13/189.pdf --  fbun
+
+-- google charts
+http://www.roytuts.com/google-chart-using-spring/
+http://www.roytuts.com/google-chart-using-jsp-servlet/
+https://developers.google.com/chart/interactive/docs/gallery/piechart

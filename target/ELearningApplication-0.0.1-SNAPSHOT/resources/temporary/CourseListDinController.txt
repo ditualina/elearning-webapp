@@ -1,0 +1,25 @@
+								<!-- Lista din Controller -->
+								<c:if test="${not empty courseNameList}">
+
+									<ul class="open">
+										<c:forEach var="course" items="${courseNameList}" varStatus="loop">
+											<li id="${loop.index}"><a onclick="toggle('${loop.index}');"><img
+													src="resources/images/closed.gif" alt="" id="${loop.index}"
+													border="0"></a> ${course.name}
+												<ul id="${loop.index}" class="closed">
+													<li id="1_1">Item 1.1<a
+														href="http://www.tutorialspoint.com/spring/spring_tutorial.pdf#page=0"
+														download> Descarca </a><a
+														href="http://www.tutorialspoint.com/spring/spring_tutorial.pdf#page=0">
+															Vizualizeaza </a></li>
+													<li id="item1_2">Item 1.2<a href="http://facebook.com">
+															Descarca </a><a
+														href="http://www.tutorialspoint.com/spring/spring_tutorial.pdf#page=0"
+														onClick="onClick();"> Vizualizeaza </a></li>
+												</ul></li>
+										</c:forEach>
+									</ul>
+
+								</c:if>
+
+								<!-- End List din Controller -->
